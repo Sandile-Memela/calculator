@@ -17,13 +17,18 @@
 }
 
 #screen {
+    display: flex;
+    align-items: center;
+    justify-content: right;
     width: 400px;
     height: 100px;
     border: 1px solid #eeeeee;
     padding: 10px;
+    text-align: right;
+    background-color: #eeeeee;
 }
 
-#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #zero, #period, #equal, #plus, #minus, #multiply, #divide {
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #zero, #clear, #equal, #plus, #minus, #multiply, #divide {
     width: 100px;
     height: 100px;
     border: 1px solid #eeeeee;
